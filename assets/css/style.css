@@ -66,11 +66,18 @@ body {
 }
 
 h1 {
+  font-family: "Georgia", Times, Times New Roman, serif;
   padding: 5px;
 }
 
 h2 {
   padding: 10px;
+}
+
+h3 {
+  padding-left: 150px;
+  padding-top: 15px;
+  font-size: 50px;
 }
 
 img {
@@ -83,7 +90,7 @@ body {
 
 .header {
   border-bottom: 2px gray solid;
-  height: 30px;
+  height: -1px;
   padding: 20px 0;
 }
 
@@ -142,4 +149,14 @@ input[type="submit"]:hover {
   background-color: #66cdaa;
   text-align: center;
   height: 30px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
 }
